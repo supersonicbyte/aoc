@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E0D5E2227598FA900A16856 /* input in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5E2013FA2757CB7800A8DBC5 /* input */; };
+		5E0D5E2427599C5600A16856 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0D5E2327599C5600A16856 /* Day.swift */; };
+		5E0D5E2727599CB000A16856 /* Day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0D5E2627599CB000A16856 /* Day1.swift */; };
+		5E0D5E2A27599D4200A16856 /* Day2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0D5E2927599D4200A16856 /* Day2.swift */; };
+		5E0D5E2E275A32E600A16856 /* Day3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0D5E2D275A32E600A16856 /* Day3.swift */; };
 		5E2013F32757C8CF00A8DBC5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2013F22757C8CF00A8DBC5 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -17,14 +22,22 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
+				5E0D5E2227598FA900A16856 /* input in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5E0D5E2327599C5600A16856 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		5E0D5E2627599CB000A16856 /* Day1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day1.swift; sourceTree = "<group>"; };
+		5E0D5E2927599D4200A16856 /* Day2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day2.swift; sourceTree = "<group>"; };
+		5E0D5E2B27599E6D00A16856 /* input2 */ = {isa = PBXFileReference; lastKnownFileType = text; path = input2; sourceTree = "<group>"; };
+		5E0D5E2D275A32E600A16856 /* Day3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3.swift; sourceTree = "<group>"; };
+		5E0D5E2F275A331300A16856 /* input3 */ = {isa = PBXFileReference; lastKnownFileType = text; path = input3; sourceTree = "<group>"; };
 		5E2013EF2757C8CF00A8DBC5 /* AOC2021 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AOC2021; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E2013F22757C8CF00A8DBC5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		5E2013F22757C8CF00A8DBC5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = main.swift; path = "/Users/mirza.ucanbarlic/Desktop/mirza-files/AOC/AOC2021/AOC2021/main.swift"; sourceTree = "<absolute>"; };
+		5E2013FA2757CB7800A8DBC5 /* input */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = input; path = "/Users/mirza.ucanbarlic/Desktop/mirza-files/AOC/AOC2021/AOC2021/input"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,9 +51,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E0D5E2527599C9B00A16856 /* Day1 */ = {
+			isa = PBXGroup;
+			children = (
+				5E2013FA2757CB7800A8DBC5 /* input */,
+				5E0D5E2627599CB000A16856 /* Day1.swift */,
+			);
+			path = Day1;
+			sourceTree = "<group>";
+		};
+		5E0D5E2827599D3500A16856 /* Day2 */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D5E2927599D4200A16856 /* Day2.swift */,
+				5E0D5E2B27599E6D00A16856 /* input2 */,
+			);
+			path = Day2;
+			sourceTree = "<group>";
+		};
+		5E0D5E2C275A32D400A16856 /* Day3 */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D5E2D275A32E600A16856 /* Day3.swift */,
+				5E0D5E2F275A331300A16856 /* input3 */,
+			);
+			path = Day3;
+			sourceTree = "<group>";
+		};
 		5E2013E62757C8CF00A8DBC5 = {
 			isa = PBXGroup;
 			children = (
+				5E0D5E2327599C5600A16856 /* Day.swift */,
 				5E2013F12757C8CF00A8DBC5 /* AOC2021 */,
 				5E2013F02757C8CF00A8DBC5 /* Products */,
 			);
@@ -57,6 +98,9 @@
 		5E2013F12757C8CF00A8DBC5 /* AOC2021 */ = {
 			isa = PBXGroup;
 			children = (
+				5E0D5E2C275A32D400A16856 /* Day3 */,
+				5E0D5E2827599D3500A16856 /* Day2 */,
+				5E0D5E2527599C9B00A16856 /* Day1 */,
 				5E2013F22757C8CF00A8DBC5 /* main.swift */,
 			);
 			path = AOC2021;
@@ -120,6 +164,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E0D5E2427599C5600A16856 /* Day.swift in Sources */,
+				5E0D5E2E275A32E600A16856 /* Day3.swift in Sources */,
+				5E0D5E2A27599D4200A16856 /* Day2.swift in Sources */,
+				5E0D5E2727599CB000A16856 /* Day1.swift in Sources */,
 				5E2013F32757C8CF00A8DBC5 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
