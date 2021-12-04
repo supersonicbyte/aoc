@@ -1,4 +1,4 @@
 import Foundation
 
-let day3 = Day3()
-day3.start()
+let day4 = Day4()
+day4.start()
