@@ -14,6 +14,7 @@
 		5E0D5E2E275A32E600A16856 /* Day3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0D5E2D275A32E600A16856 /* Day3.swift */; };
 		5E2013F32757C8CF00A8DBC5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2013F22757C8CF00A8DBC5 /* main.swift */; };
 		5EB5986E275BF6F6008F087F /* Day4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5986D275BF6F6008F087F /* Day4.swift */; };
+		5EB59871275CFCAE008F087F /* Day5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB59870275CFCAE008F087F /* Day5.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +42,8 @@
 		5E2013FA2757CB7800A8DBC5 /* input */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = input; path = "/Users/mirza.ucanbarlic/Desktop/mirza-files/AOC/AOC2021/AOC2021/input"; sourceTree = "<absolute>"; };
 		5EB5986C275BF6E1008F087F /* input */ = {isa = PBXFileReference; lastKnownFileType = text; path = input; sourceTree = "<group>"; };
 		5EB5986D275BF6F6008F087F /* Day4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day4.swift; sourceTree = "<group>"; };
+		5EB59870275CFCAE008F087F /* Day5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day5.swift; sourceTree = "<group>"; };
+		5EB59872275CFCCB008F087F /* input */ = {isa = PBXFileReference; lastKnownFileType = text; path = input; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		5E2013F12757C8CF00A8DBC5 /* AOC2021 */ = {
 			isa = PBXGroup;
 			children = (
+				5EB5986F275CFC9E008F087F /* Day5 */,
 				5EB5986B275BF6C9008F087F /* Day4 */,
 				5E0D5E2C275A32D400A16856 /* Day3 */,
 				5E0D5E2827599D3500A16856 /* Day2 */,
@@ -117,6 +121,15 @@
 				5EB5986D275BF6F6008F087F /* Day4.swift */,
 			);
 			path = Day4;
+			sourceTree = "<group>";
+		};
+		5EB5986F275CFC9E008F087F /* Day5 */ = {
+			isa = PBXGroup;
+			children = (
+				5EB59870275CFCAE008F087F /* Day5.swift */,
+				5EB59872275CFCCB008F087F /* input */,
+			);
+			path = Day5;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E0D5E2427599C5600A16856 /* Day.swift in Sources */,
+				5EB59871275CFCAE008F087F /* Day5.swift in Sources */,
 				5EB5986E275BF6F6008F087F /* Day4.swift in Sources */,
 				5E0D5E2E275A32E600A16856 /* Day3.swift in Sources */,
 				5E0D5E2A27599D4200A16856 /* Day2.swift in Sources */,
